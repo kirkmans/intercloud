@@ -57,6 +57,8 @@ The smart contract system is implemented using the Solidity language.   The DApp
 
 ```
 git push -u origin master
+
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
 ```
 
 
