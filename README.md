@@ -53,6 +53,12 @@ The smart contract system is implemented using the Solidity language.   The DApp
   * npm run dev, wait for localhost to start on 3000
 *	open browser to localhost:3000
 
+## Upload Reminders
+
+```
+git push -u origin master
+```
+
 
 ## License
 
