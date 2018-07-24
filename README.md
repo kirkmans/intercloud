@@ -35,23 +35,28 @@ The smart contract system is implemented using the Solidity language.   The DApp
 
 # Startup Instructions
 
-*	open 3 project windows and code editor, and browser
+*	open 3 project windows and code editor, and browser, and code editor
 *	first window:
+  * ganache-cli
+  * leave running
+* second window:
   * cd project directory
   * cd Ethereum directory
   * node compile.js
-  * after ganache-cli is running:
-  * copy test blockchain keywords to deploy.js
+  * ensure ganache-cli is running
+* save test blockchain mnemonics to notepad for later use
+  * copy keywords to deploy.js
   * node deploy.js and capture the deployment address
-*	second window:	
-  * ganache-cli
-  * leave it running
-*	code editor window
+* save deploy address to notepad
   * copy deployment address to main.js
-*	third window
-  * cd project directory
+  * cd intercloud
   * npm run dev, wait for localhost to start on 3000
 *	open browser to localhost:3000
+  * open metamast and import mnemonics to create password
+* open second browser navigate to remix.ethereum.online
+  * copy contract to display and set up Web3 provider using localhost:8545
+  * load contract from Ganache Test Blockchain
+
 
 ## Upload Reminders
 
